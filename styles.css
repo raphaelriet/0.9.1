@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  width: 30vw;
+  height: 80vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  padding: 15px;
+  font-size: xx-large;
+}
+
+.opcoes {
+  border: none;
+  fill: white;
+  align-self: flex-end;
+  text-align: right;
+  justify-content: flex-end;
+  height: 30px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.direita {
+  width: fit-content;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  background-color: gray;
+  border-radius: 5px;
+  color: white;
+}
+
+.esquerda {
+  width: fit-content;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(63, 146, 108);
+  border-radius: 5px;
+  color: white;
+  margin-left: auto;
+}
+
+nav {
+  background-color: black;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+nav span {
+  border: 1px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+}
+
+nav span.tittle {
+  align-self: flex-start;
+  text-align: left;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+nav span.tittle p {
+  font-size: 20px;
+}
+
+nav span.settings {
+  align-self: flex-end;
+  text-align: right;
+  justify-content: flex-end;
+  height: 100%;
+}
